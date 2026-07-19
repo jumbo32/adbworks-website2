@@ -1,0 +1,76 @@
+<!DOCTYPE html> 
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>App Two - By ADBWorks</title>
+    <style>
+        body { 
+            /* Soft light mode gradient background */
+            background: linear-gradient(135deg, #f5f7fa 0%, #e8f5e9 100%); 
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif; 
+            max-width: 600px; 
+            margin: 40px auto; 
+            padding: 0 20px; 
+            line-height: 1.6; 
+            color: #2c3e50; 
+            min-height: 100vh;
+        }
+        a { color: #059669; text-decoration: none; font-weight: 500; }
+        a:hover { text-decoration: underline; }
+        .section { margin-bottom: 35px; padding-bottom: 20px; border-bottom: 1px solid rgba(0,0,0,0.05); }
+        
+        /* Dark Mode Preferences */
+        @media (prefers-color-scheme: dark) {
+            body { 
+                /* Sleek dark gradient built to accent the emerald elements */
+                background: linear-gradient(135deg, #0f172a 0%, #064e3b 100%); 
+                color: #f1f5f9; 
+            }
+            a { color: #34d399; }
+            .section { border-bottom-color: rgba(255,255,255,0.1); }
+        }
+    </style>
+</head>
+<body>
+    <p><a href="/">&larr; Back to ADBWorks</a></p>
+    
+    <header class="section">
+        <h1>App Two Title</h1>
+        <p>The main landing page for App Two. Showcase your application features, pricing models, or active download links here.</p>
+    </header>
+
+    <main>
+        <section class="section">
+            <h2>Features & Details</h2>
+            <p>Ready to check out the technical overview, version updates, or developer updates for this tool?</p>
+            <p><a href="app2-details.html">Read the Detailed App Documentation &rarr;</a></p>
+        </section>
+
+        <!-- Interface Preview Section using your green mockup path -->
+        <section class="section" style="text-align: center;">
+            <h2 style="margin-bottom: 8px;">Interface Preview</h2>
+            <p style="opacity: 0.7; margin-bottom: 25px; font-size: 0.95em;">Clean, native layouts designed explicitly for iOS.</p>
+            
+            <div style="display: flex; justify-content: center;">
+                <!-- FIXED: Points to the shared image directory -->
+                <img src="/global/images/app2-main.png" 
+                     alt="App Two Main Interface" 
+                     style="width: 200px; border-radius: 18px; box-shadow: 0 8px 24px rgba(0,0,0,0.15); border: 1px solid rgba(0,0,0,0.05);">
+            </div>
+        </section>
+    </main>
+
+    <!-- Compliant Corporate Footer -->
+    <footer style="text-align: center; margin-top: 50px; padding-top: 20px; border-top: 1px solid rgba(0,0,0,0.05); font-size: 0.9em; opacity: 0.8;">
+        <!-- FIXED: Points directly to the global branding logo -->
+        <img src="/global/images/logo.png" alt="ADBWORKS Mini Logo" style="width: 32px; height: 32px; border-radius: 8px; vertical-align: middle; margin-right: 8px; box-shadow: 0 2px 6px rgba(0,0,0,0.1);">
+        <span style="vertical-align: middle; font-weight: 500;">&copy; 2026 ADBWORKS LLC. All rights reserved.</span>
+        <p style="margin-top: 15px;">
+            <a href="/">&larr; Back to ADBWorks</a> | 
+            <!-- FIXED: Direct top-level mapping for legal compliance -->
+            <a href="/legal/privacy.html">Privacy Policy</a>
+        </p>
+    </footer>
+</body>
+</html>
